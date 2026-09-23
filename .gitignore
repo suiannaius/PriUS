@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+data/
+saved_models/
+logging/
+runs/
+results/
+configs/
+*.pth
+*.pt
+*.nii
+*.nii.gz
+.DS_Store
+*.json
