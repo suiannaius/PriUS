@@ -1,0 +1,9 @@
+torch
+numpy
+scipy
+SimpleITK
+monai
+scikit-image
+matplotlib
+tqdm
+tensorboard
