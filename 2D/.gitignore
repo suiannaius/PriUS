@@ -1,0 +1,21 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+data/
+outputs/
+saved_models/
+logging/
+runs/
+results/
+*.pth
+*.pt
+*.nii
+*.nii.gz
+*.npz
+.DS_Store
+
+# Include the example configurations despite repository-wide ignore rules.
+!configs/
+!configs/*.json
