@@ -61,4 +61,4 @@ For URg and URd, a pair is accepted when the attribute and uncertainty differenc
 
 URd visits all unordered pairs within each represented class, including cross-block pairs. The existing additional 2D filter `d[j] - d[i] > 3` for original pixel indices `i < j` is retained. Only pairs passing this filter contribute to URd; UCCd uses the selected class pixels. Thus this retained filter is directional, depends on pixel ordering, and differs from an unfiltered all-pair URd evaluation.
 
-`--save-predictions` writes eval-mode segmentation predictions and their eval-mode uncertainty maps to `predictions/fold_N/`. The train-mode uncertainty scores are recorded in the result JSON.
+`--save-predictions` writes eval-mode segmentation predictions and their eval-mode uncertainty maps to `predictions/fold_N/`. The train-mode uncertainty scores are recorded in the result JSON. 
