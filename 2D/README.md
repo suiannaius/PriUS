@@ -59,6 +59,6 @@ For URg and URd, a pair is accepted when the attribute and uncertainty differenc
 
 σ uses corresponding pixels across two noise levels and averages pixel correlations over valid pixels. g retains gradient sampling at interval 0.04 and its existing region threshold. Geometry scores average clean and two noisy states over valid scores. Region thresholds continue to come from the configuration.
 
-URd visits all unordered pairs within each represented class, including cross-block pairs. The existing additional 2D filter `d[j] - d[i] > 3` for original pixel indices `i < j` is retained. Only pairs passing this filter contribute to URd; UCCd uses the selected class pixels. Thus this retained filter is directional, depends on pixel ordering, and differs from an unfiltered all-pair URd evaluation. The WHS implementation has no such additional filter.
+URd visits all unordered pairs within each represented class, including cross-block pairs. The existing additional 2D filter `d[j] - d[i] > 3` for original pixel indices `i < j` is retained. Only pairs passing this filter contribute to URd; UCCd uses the selected class pixels. Thus this retained filter is directional, depends on pixel ordering, and differs from an unfiltered all-pair URd evaluation.
 
 `--save-predictions` writes eval-mode segmentation predictions and their eval-mode uncertainty maps to `predictions/fold_N/`. The train-mode uncertainty scores are recorded in the result JSON.
